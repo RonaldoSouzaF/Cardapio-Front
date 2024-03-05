@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/13800186-icone-de-hamburguer-preto-isolado-padrao-sem-emenda-no-fundo-branco-icone-de-hamburguer-sinal-de-sanduiche-de-cheeseburger-cardapio-de-fast-food-ilustracaoial-gratis-vetor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgb(226, 39, 39);
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.container button{
+    background-color:rgb(45, 0, 247);
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    bottom: 16px;
+    right: 24px;
+    transition: all 0.1s linear 0.1s;
+}
+
+.container button:hover{
+    box-shadow: rgba(255, 0, 0, 0.2) 0px 7px 7px 0px;
+    transform: scale(1.1);
+}
